@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a test site made about the Dehiwala Zoo">
+        <title> The Zoo </title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="Shortcut Icon" href="favicon.ico" type="image/icon">
+    </head>
+
+    <body>
+        <div id="container">
+            <header class="top">
+            </header>
+
+            <header class="top">
+                <img src="Images/topics/purchase header.png" alt="gardens" width="65%" height="60%">
+            </header>
+
+            <nav class="mainNav">
+                <center>    <ul style="display: inline-block;">
+                    <li><a href="home.html"><span class="navText">HOME</span></a></li>
+                    <li><a href="animals.html"><span class="navText">ANIMALS</span></a></li>
+                    <li><a href="activities.html"><span class="navText">ACTIVITIES</span></a></li>
+                    <li><a href="purchase.html"><span class="navText">PURCHASE & DONATE</span></a></li>
+                    <li><a href="contact.html"><span class="navText">CONTACT US</span></a></li>
+                </ul></center>
+            </nav>
+
+            <html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button class="tablink" onclick="openPage('purchase', this, 'black')" id="defaultOpen">Purchase</button>
+    <button class="tablink" onclick="openPage('donate', this, 'black')">Donate</button>
+
+    <div id="purchase" class="tabcontent">
+
+        <div class="lamna">
+            <form>
+                <div class="passes">
+                    <label class="container"> Day Pass <input type="checkbox" id="vehicle1" name="vehicle1"
+                            value="Bike"> <span class="checkmark"></span></label><br>
+
+                    <label class="container"> Student Pass <input type="checkbox" id="vehicle1" name="vehicle1"
+                            value="Bike">
+                        <span class="checkmark"></span></label><br>
+                    <label class="container"> Foriegn Pass <input type="checkbox" id="vehicle1" name="vehicle1"
+                            value="Bike">
+                        <span class="checkmark"></span></label><br>
+                </div>
+                <br>
+                <br>
+                <div class="adultschild">
+                    <label class="container"> Adults <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span class="checkmark"></span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="container">
+                        Children <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span class="checkmark"></span></label><br>
+                </div>
+                <br>
+                <br>
+
+                <div class="hours">
+
+                    <label class="container">
+                        3 Hours <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span class="checkmark"></span>
+                    </label>
+                    <br>
+                    <label class="container">
+                        1/2 Day <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span class="checkmark"></span>
+                    </label><br>
+                    <label class="container">
+                        Full Day<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span class="checkmark"></span>
+                    </label><br>
+                    <label class="container">
+                        2 Days <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span class="checkmark"></span>
+                    </label><br>
+                </div>
+                <br>
+                <br>
+                <div class="passtypes">
+                    <label class="container"> Annual Pass <input type="checkbox" id="vehicle1" name="vehicle1"
+                            value="Bike">
+                        <span class="checkmark"></span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="container"> Food Token <input type="checkbox" id="vehicle1" name="vehicle1"
+                            value="Bike">
+                        <span class="checkmark"></span></label><br>
+                </div>
+                <br>
+                <br>
+                <div class="buttons_form">
+                    <button class="btnnew">Add to Order</button>
+                    <button class="btnnew">Place Order</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="lamna2">
+
+            <p>Current Order</p>
+            <br>
+            <br>
+            <p>Overall Order</p>
+            <br>
+            <br>
+            <br>
+            <p style="text-align: right">Total: ..................</p>
+        </div>
+
+
+    </div>
+
+    <div id="donate" class="tabcontent">
+        <form>
+            <div class="amount">
+                <label class="container"> 100 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+                &nbsp;
+                &nbsp;
+                <label class="container"> 250 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+                &nbsp;
+                &nbsp;
+                <label class="container"> 500 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+                &nbsp;
+                &nbsp;
+                <label class="container"> 1000 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+                &nbsp;
+                &nbsp;
+                <label class="container"> 2500 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+                &nbsp;
+                &nbsp;
+                <label class="container"> 5000 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+                &nbsp;
+                &nbsp;
+                <label class="container"> 10000 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <span
+                        class="checkmark"></span></label>
+            </div>
+            <br>
+            <br>
+            <div class="information_name" style="line-height: 20px;">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Your address..">
+
+                <label for="cardnum">Card Number</label>
+                <input type="text" id="cardnum" name="cardnum" placeholder="Your card number..">
+
+                <label for="cardnum">Expiry Date</label>
+                <input type="text" id="cardnum" name="cardnum" placeholder="Your card number..">
+
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" name="cvc" placeholder="Your CVC..">
+
+            </div>
+            <br>
+            <br>
+            <input type="submit" value="Donate">
+        </form>
+
+    </div>
+
+
+    <script src="main.js"></script>
+    </script>
+
+</body>
+
+</html>
+
+            
+
+           
+        </div>
+
+        
+
+
+            </div>
+        </div>
+    </body>
+</html>
